@@ -3,7 +3,12 @@
     flex-direction: column;
     justify-content: space-between;
 
-    height: 120vh;
+    height: 200vh;
+}
+
+.blocoImg {
+    display: flex;
+    flex-direction: row
 }
 
 .mainHome {
@@ -11,7 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 95vw;
 }
 
 .conteudo {
@@ -20,12 +25,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 2em;
-    height: 40vh;
-}
-
-.conteudo img {
-    width: 20vw;
-    height: 30vh;
+    height: 80vh;
 }
 
 .botao {
