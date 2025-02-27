@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
+import ValoresGrupo from "./pages/Valores"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path="/valores" element={<ValoresGrupo/>} />
       </Routes>
     </BrowserRouter>
   )
