@@ -1,0 +1,57 @@
+.lado{
+  /* tamanho da caixa */
+  width: 13vw;
+  height: 70vh;
+  background-color:yellowgreen;
+  padding: 1em;
+  border: 0.2em solid rgb(0, 0, 0);
+  border-radius: 2em;
+  /* Alinha os elementos internos verticalmente */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s ease;
+}
+
+.lado:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+ul{
+  /* Remove o espaçamento interno da lista */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  /* Alinha os elementos da lista verticalmente */
+  align-items: center;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  transition: all 1s ease;
+}
+
+ul:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+h1{
+  padding: 1em;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+@media screen and (max-width: 1000px)  {
+
+  .lado{
+    width: 20vw;
+    margin-right: 2vw;
+  }
+}
