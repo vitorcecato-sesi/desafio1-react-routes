@@ -1,0 +1,60 @@
+#root {
+    /* Formatação do Root */
+    margin: 0;
+    padding: 0;
+  
+    /* FlexBox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .meioPagina {
+    /* FlexBox */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .elementosCartas {
+    /* FlexBox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  
+    /* Medidas */
+    width: 80vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .blocoCartas {
+    /* FlexBox */
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .blocoIntro {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   align-items: center;
+   border-radius: 2vw;
+   box-shadow: #442b19 0.1px 0.1px 10px;
+   background-color: #CEE741;
+   color: #442b19;
+   width: 30vw;
+   height: 10vw;
+   margin-top: 2vw;
+   transition: 0.3s;
+   }
+
+   .blocoIntro:hover {
+    background-color:#442b19;
+    color: #CEE741;
+    transition: 0.3s;
+    cursor: pointer;
+    
+    }
