@@ -3,6 +3,7 @@ import "./styles/SobreNos.css"
 import UsuarioCard from "../components/UsuarioCard"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 //.
 
 // Fotos
@@ -30,6 +31,7 @@ return (
     <p>Conheça melhor o grupo 3 e siga seus integrantes!</p>
     </article>
     <section className="meioPagina">
+    <Navbar/>
       <main className="elementosCartas">
         <section className="blocoCartas">
           <UsuarioCard
