@@ -27,7 +27,7 @@ return (
     <Header/>
     <article className="blocoIntro">
     <h1> Sobre nós: </h1>
-    <p>Conheça melhor o grupo 3 e o seus integrantes:</p>
+    <p>Conheça melhor o grupo 3 e siga seus integrantes!</p>
     </article>
     <section className="meioPagina">
       <main className="elementosCartas">
