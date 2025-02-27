@@ -7,7 +7,7 @@ function Home(){
                 <p>Está é a página inicial do nosso site.</p>
             </section>
         </>
-    )
+    )   
 }
 
 export default Home
