@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import Professores from './pages/SENAI'
+import Senai from './pages/SENAI'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/sobreosprofessores' element={<Professores/>}/>
+        <Route path='/sobreosprofessores' element={<Senai/>}/>
       </Routes>
     </BrowserRouter>
   )
