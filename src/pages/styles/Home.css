@@ -1,4 +1,35 @@
 .flexHome {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    height: 120vh;
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    height: 40vh;
+}
+
+.conteudo img {
+    width: 20vw;
+    height: 30vh;
+}
+
+.botao {
+    display: block;
+    padding: 1em 3em;
+    border-radius: 2em;
 }

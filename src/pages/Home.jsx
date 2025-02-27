@@ -8,7 +8,8 @@
     import Valores from "../components/aside"
 //.
 
-// Fotos Footer
+// Fotos
+    // Footer
     import foto from "../assets/gmail.png"
     import foto2 from "../assets/instagram.png"
     import logo from "../assets/logoG3.png"
@@ -20,10 +21,21 @@ function Home(){
             {/* <Navbar/> */}
             <section className="flexHome">
                 <Header/>
-                <section className="mainHome">
-                    <h1>Boas vindas a HomePage!</h1>
-                </section>
-                <Valores/>
+                <center>
+                    <section className="mainHome">
+                        <Valores/>
+                        <article className="conteudo">
+                            <h1>🌳 Boas vindas a HomePage 🏡</h1>
+                            <p>Está é a nossa Homepage que foi criada como parte de um desafio!</p>
+                            <img src="https://img.freepik.com/vetores-gratis/ilustracao-encantadora-de-uma-casa-de-desenho-animado_1308-176076.jpg" alt="Casa" />
+                        </article>
+                        <Valores
+                            valor1="União"
+                            valor2="Honestidade"
+                            valor3="Comprometimento"
+                        />
+                    </section>
+                </center>
                 <Footer
                     imagem1={foto}
                     imagem2={foto2}
