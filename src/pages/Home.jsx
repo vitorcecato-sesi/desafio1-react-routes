@@ -7,6 +7,7 @@
     import Footer from "../components/Footer"
     import Valores from "../components/aside"
     import Integrantes from "../components/Integrantes"
+    import Navbar from "../components/Navbar"
 //.
 
 // Fotos
@@ -31,10 +32,12 @@ function Home(){
                 <Header/>
                 <center>
                     <section className="mainHome">
-                        <Valores/>
+                        <Navbar/>
+
                         <article className="conteudo">
                             <h1>🌳 Boas vindas a HomePage 🏡</h1>
                             <p>Está é a nossa Homepage que foi criada como parte de um desafio!</p>
+
                             <section>
                                 <section className="blocoImg">
                                 <Integrantes 
