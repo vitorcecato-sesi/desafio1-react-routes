@@ -13,7 +13,7 @@
     padding-left: 15em;
 }
 
-h1 {
+.Header h1 {
     transition: all 1s ease;
 }
 

@@ -64,7 +64,7 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     padding-left: 1.3em;
 }
 
-img{
+.img{
     width: 1.8vw;
     height: 2.5vh; 
 }
@@ -75,9 +75,9 @@ p:hover{
 }
 
 .imglogo:hover{
-     background-color: #CEE741; /*Aparecer cor  atras da logo*/
-      border-radius: 50%; /*Borda ficar com círculo*/
-  }
+    background-color: #CEE741; /*Aparecer cor  atras da logo*/
+    border-radius: 50%; /*Borda ficar com círculo*/
+}
 
 .imglogo{
     width: 6vw;
@@ -95,4 +95,4 @@ p:hover{
         padding-left: 2em;
     }
     
-  }
+}
