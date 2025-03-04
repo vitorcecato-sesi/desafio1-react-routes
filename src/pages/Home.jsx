@@ -37,53 +37,62 @@ function Home(){
                         <article className="conteudo">
                             <h1>🌳 Boas vindas a HomePage 🏡</h1>
                             <p>Está é a nossa Homepage que foi criada como parte de um desafio!</p>
+                            <h2>Integrantes</h2>
+                            <section className="blocoIntegrantes">
+                                
+                                <section className="blocoImg">
+                                    <Integrantes 
+                                        foto= {fotoPerfilLauraB} 
+                                        nome="Laura Betti" 
+                                        hobbies="Os meus hobbies são: Ouvir música e ver filmes/séries."
+                                    />
+                                    <Integrantes 
+                                        foto= {fotoPerfilLucas} 
+                                        nome="Lucas Casagrande" 
+                                        hobbies="Os meus hobbies são: Praticar vôlei, jogar jogos online e assistir séries."
+                                    />
+                                </section>
 
-                            <section>
                                 <section className="blocoImg">
-                                <Integrantes 
-                                    foto= {fotoPerfilLauraB} 
-                                    nome="Laura Betti" 
-                                    hobbies="Os meus hobbies são: Ouvir música e ver filmes/séries."
-                                />
-                                <Integrantes 
-                                    foto= {fotoPerfilLucas} 
-                                    nome="Lucas Casagrande" 
-                                    hobbies="Os meus hobbies são: Praticar vôlei, jogar jogos online e assistir séries."
-                                />
+                                    <Integrantes 
+                                        foto= {fotoPerfilMilena} 
+                                        nome="Milena Souza" 
+                                        hobbies="Os meus hobbies são: Escutar música, ver filmes e séries, estudar matemática e cozinhar."
+                                    />
+                                    <Integrantes 
+                                        foto= {fotoPerfiloPietro} 
+                                        nome="Pietro Melle" 
+                                        hobbies="Os meus hobbies são: Praticar esportes."
+                                    />
                                 </section>
+
                                 <section className="blocoImg">
-                                <Integrantes 
-                                    foto= {fotoPerfilMilena} 
-                                    nome="Milena Souza" 
-                                    hobbies="Os meus hobbies são: Escutar música, ver filmes e séries, estudar matemática e cozinhar."
-                                />
-                                <Integrantes 
-                                    foto= {fotoPerfiloPietro} 
-                                    nome="Pietro Melle" 
-                                    hobbies="Os meus hobbies são: Praticar esportes."
-                                />
+                                    <Integrantes 
+                                        foto= {fotoPerfilPyetro} 
+                                        nome="Pyetro Joaquim" 
+                                        hobbies="Os meus hobbies são: Jogar jogos online, ouvir música e cozinhar."
+                                    />
+                                    <Integrantes 
+                                        foto= {fotoPerfilVitor} 
+                                        nome="Vitor Cecato" 
+                                        hobbies="Meus hobbies são: jogar jogos online, programar e nadar."
+                                    />
                                 </section>
-                                <section className="blocoImg">
-                                <Integrantes 
-                                    foto= {fotoPerfilPyetro} 
-                                    nome="Pyetro Joaquim" 
-                                    hobbies="Os meus hobbies são: Jogar jogos online, ouvir música e cozinhar."
-                                />
-                                <Integrantes 
-                                    foto= {fotoPerfilVitor} 
-                                    nome="Vitor Cecato" 
-                                    hobbies="Meus hobbies são: jogar jogos online, programar e nadar."
-                                />
-                                </section>
+
                             </section>
+
                         </article>
+
                         <Valores
                             valor1="União"
                             valor2="Honestidade"
                             valor3="Comprometimento"
                         />
+
                     </section>
+
                 </center>
+
                 <Footer
                     imagem1={foto}
                     imagem2={foto2}
@@ -92,6 +101,7 @@ function Home(){
                     texto="O Vitor Geraldo Cecato é o responsável pelo projeto Desafio 1, cuidando da coordenação e garantindo que o conteúdo seja de qualidade e esteja sempre no caminho certo."
                     imglogo={logo}
                 />
+                
             </section>
         </>
     )   
