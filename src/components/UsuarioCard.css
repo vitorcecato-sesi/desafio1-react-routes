@@ -48,7 +48,7 @@
 }
 
 /* Estilização do botão */
-button {
+#button {
     padding: 0.5em;
     width: 10vw;
     border-radius: 10px;
@@ -57,7 +57,7 @@ button {
     transition: all 1s ease;
 }
 
-button:hover {
+#button:hover {
     transition: all 1s ease;
     transform: scale(1.1);
 }
