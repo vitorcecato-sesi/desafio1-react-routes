@@ -5,8 +5,6 @@ import Tarefas from "./pages/ListadeFazeres"
 import ValoresGrupo from "./pages/Valores"
 import Senai from './pages/SENAI'
 import SobreNos from './pages/SobreNos'
-import ListaTarefas from './pages/ListadeFazeres'
-import Navbar from './components/Navbar'
 
 function App() {
   return (
@@ -15,9 +13,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/tarefas' element={<Tarefas/>}/>
         <Route path="/valores" element={<ValoresGrupo/>} />
-        <Route path='/sobreosprofessores' element={<Senai/>}/>
+        <Route path='/sobreosenai' element={<Senai/>}/>
         <Route path='/sobrenos' element={<SobreNos/>}/>
-        <Route path='/listatarefas' element={<ListaTarefas/>}/>
       </Routes>
     </BrowserRouter>
   )

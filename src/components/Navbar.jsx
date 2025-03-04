@@ -9,10 +9,16 @@ function Navbar(){
                     <Link className="fonte" id="link" to="/">🏠 Home</Link>
                 </li>
                 <li>
+                    <Link className="fonte" id="link" to="/tarefas">🧾 Tarefas</Link>
+                </li>
+                <li>
+                    <Link className="fonte" id="link" to="/valores">🎴 Valores</Link>
+                </li>
+                <li>
                     <Link className="fonte" id="link" to="/sobrenos">ℹ Sobre</Link>
                 </li>
                 <li>
-                    <Link className="fonte" id="link" to="/Contato">📞 Contato</Link>
+                    <Link className="fonte" id="link" to="/sobreosenai">ℹ Senai</Link>
                 </li>
             </ul>
         </nav>
