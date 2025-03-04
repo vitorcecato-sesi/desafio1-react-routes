@@ -1,16 +1,13 @@
+/* Estilização do corpo do site */
 .flexHome {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    height: 200vh;
+    height: 150vh;
 }
 
-.blocoImg {
-    display: flex;
-    flex-direction: row
-}
-
+/* Estilização do meio do site */
 .mainHome {
     display: flex;
     flex-direction: row;
@@ -19,17 +16,34 @@
     width: 95vw;
 }
 
+/* Parte do meio do site (h1, p e integrantes) */
 .conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 2em;
-    height: 80vh;
+    height: 100%;
 }
 
-.botao {
-    display: block;
-    padding: 1em 3em;
-    border-radius: 2em;
+.conteudo h1 {
+    font-size: 1.4em;
+}
+
+.conteudo h2 {
+    font-size: 1.3em;
+}
+
+/* Bloco que armazena todos as sections com os componentes */
+.blocoIntegrantes {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* Bloco que armazena 2 cartões de integrantes */
+.blocoImg {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
 }

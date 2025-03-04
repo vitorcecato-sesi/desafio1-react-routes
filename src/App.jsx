@@ -9,12 +9,11 @@ import SobreNos from './pages/SobreNos'
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/tarefas' element={<Tarefas/>}/>
         <Route path="/valores" element={<ValoresGrupo/>} />
-        <Route path='/sobreosprofessores' element={<Senai/>}/>
+        <Route path='/sobreosenai' element={<Senai/>}/>
         <Route path='/sobrenos' element={<SobreNos/>}/>
       </Routes>
     </BrowserRouter>
