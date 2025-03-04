@@ -1,0 +1,23 @@
+.blocoNav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    align-items: center;
+    background-color: #CEE741;
+    box-shadow: #442b19 0.1px 0.1px 10px;
+    justify-content: center;
+    padding: 3vw;
+    height: 60vh;
+}
+
+.fonte {
+    color: #442b19;
+    font-size: 1.3em;
+    display: flex;
+    text-decoration: none;
+}
+
+.fonte:hover {
+    color: white;
+}
+
