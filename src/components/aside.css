@@ -14,12 +14,7 @@
   transition: all 1s ease;
 }
 
-.lado:hover {
-  transform: scale(1.1);
-  transition: all 1s ease;
-}
-
-ul{
+.lado ul{
   /* Remove o espaçamento interno da lista */
   padding: 0;
   display: flex;
@@ -32,18 +27,18 @@ ul{
   transition: all 1s ease;
 }
 
-ul:hover {
+.lado ul:hover {
   transform: scale(1.1);
   transition: all 1s ease;
 }
 
-h1{
+.lado h1{
   padding: 1em;
   text-align: center;
   transition: all 1s ease;
 }
 
-h1:hover {
+.lado h1:hover {
   transform: scale(1.1);
   transition: all 1s ease;
 }

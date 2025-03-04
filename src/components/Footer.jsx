@@ -14,7 +14,7 @@ function Footer(props) {
             </section>
 
             <section className='bloco-img2'>
-            <img src={props.imagem2}/>
+            <img className='img' src={props.imagem2}/>
             <h3 className='instagram'>{props.instagram}</h3>
             </section>
 
