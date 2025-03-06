@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: space-between;
 
-    height: 160vh;
+    height: 140vh;
+    padding-top: 2em;
 }
 
 /* Estilização do meio do site */

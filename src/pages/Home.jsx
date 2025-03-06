@@ -28,8 +28,9 @@ function Home(){
     return(
         <>
             {/* <Navbar/> */}
+            <Header/>
             <section className="flexHome">
-                <Header/>
+                
                 <center>
                     <section className="mainHome">
                         <Navbar/>
