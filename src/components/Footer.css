@@ -64,9 +64,9 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     padding-left: 1.3em;
 }
 
-.img{
-    width: 1.8vw;
-    height: 2.5vh; 
+.img-redes{
+    width: auto;
+    height: 3.4vh; 
 }
 
 p:hover{

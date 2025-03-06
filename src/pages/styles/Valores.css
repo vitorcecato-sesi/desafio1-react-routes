@@ -1,21 +1,26 @@
-.valor{
-   text-align: center;
+.titulo{
+    text-align: center;
+    padding-top: 8px;
 }
-
+ 
 .bloco{
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 4em;
+    align-items: center;
 }
-
-.textos{
-
+ 
+.nav{
+    width: 35vw;
+    padding-bottom: 9px;
+    padding-left: 3em;
 }
-
+ 
 .fotogrupo{
-    width: 25vw;
-    height: 25vh;
+    width: 35vw;
+    height: 35vh;
     border-radius: 6px;
-    filter: drop-shadow(0px 0px 10px rgb(95, 95, 95));
-
+    filter: drop-shadow(0px 0px 9px rgb(180, 180, 180));
+    background-color: #CEE741;
+    padding: 10px;
 }

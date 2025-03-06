@@ -1,3 +1,18 @@
+# Desafio do React
+**Objetivo:** Criar um site utilizando COMPONENTES com React. O site deve apresentar Cabeçalho, Cartões com os elementos do grupo, Aside com valores do grupo e um Footer.
+
+**Professores:**
+- Antonio Tupinamba
+- Leandro Grosso
+
+**Integrantes:**
+- [Laura Betti Migliaccio]()
+- [Lucas Casagrande da Silva](https://www.linkedin.com/in/lucascasagrandesilva/)
+- [Milena Oliveira Souza](https://www.linkedin.com/in/milena-oliveira-souza-18324034a/)
+- [Pietro Melle Michelin](https://www.linkedin.com/in/pietro-michelin/)
+- [Pyetro Joaquim Taborda Nunes](https://www.linkedin.com/in/pyetro-joaquim-nunes/)
+- [Vitor Geraldo Cecato](https://www.linkedin.com/in/vitorgcecato)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
